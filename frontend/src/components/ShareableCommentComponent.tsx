@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "../styles/Custom.module.css";
 import CommonVoteStubs from "./CommonVoteStubs";
-import type { CommentDetails, PostDetails } from "../../../../store/posts/types";
+import type { CommentDetails, PostDetails } from "../types/posts/types";
 
 const ShareableCommentComponent = ({
 	comment,
